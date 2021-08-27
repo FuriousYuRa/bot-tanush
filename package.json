@@ -1,0 +1,19 @@
+{
+  "name": "bot-tanush",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "git add . && git commit -m \"fix\" && git push heroku master"
+  },
+  "keywords": [],
+  "author": "YuRa",
+  "license": "MIT",
+  "description": "Bot for Tanush",
+  "dependencies": {
+    "config": "^3.3.6",
+    "lodash.sample": "^4.2.1",
+    "node-telegram-bot-api": "^0.54.0",
+    "request": "^2.88.2"
+  }
+}
